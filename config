@@ -1,5 +1,6 @@
 
 image=rockchip-armv8
+profile=radxa_e20c
 
 openwrt_version=SNAPSHOT
 
