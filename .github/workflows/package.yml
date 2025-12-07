@@ -21,6 +21,7 @@ jobs:
       
       - name: Load configuration from repo
         run: |
+          docker run --rm openwrt/imagebuilder:bcm27xx-bcm2710-24.10.4 make help
           docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT make
           find .
           cat config
