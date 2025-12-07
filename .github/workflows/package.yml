@@ -22,7 +22,7 @@ jobs:
       - name: Load configuration from repo
         run: |
           docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT pwd
-          docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT find .
+          docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT source setup.sh
           find .
           cat config
           cat config >> $GITHUB_ENV
