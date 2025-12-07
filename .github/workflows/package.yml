@@ -21,14 +21,12 @@ jobs:
       
       - name: Load configuration from repo
         run: |
-          docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT pwd
-          docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT sh -c "./setup.sh && make info"
           find .
           cat config
           cat config >> $GITHUB_ENV
        
       - name: Build openwrt image
-        uses: izer-xyz/openwrt-imagebuilder-action@v5
+        uses: izer-xyz/openwrt-imagebuilder-action@v7
         with:
           image: ${{ env.image }}
           profile: ${{ env.profile }}
