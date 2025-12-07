@@ -21,7 +21,7 @@ jobs:
       
       - name: Load configuration from repo
         run: |
-          docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT make help
+          docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT ls -la *
           docker run --rm openwrt/imagebuilder:rockchip-armv8-SNAPSHOT pwd
           find .
           cat config
