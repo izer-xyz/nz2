@@ -4,7 +4,7 @@ profile=radxa_e20c
 
 openwrt_version=SNAPSHOT
 
-packages=block-mount ath10k-firmware-qca6174 kmod-ath10k 
+packages=block-mount ath10k-firmware-qca6174 kmod-ath10k pciutils usbutils iwinfo
 
 disabled_services=
 
