@@ -1,6 +1,6 @@
 
 image=rockchip-armv8
-profile=radxa_rock-2a
+profile=radxa_rock-2f
 
 openwrt_version=25.12.0-rc2
 
