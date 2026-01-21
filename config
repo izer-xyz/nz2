@@ -1,8 +1,8 @@
 
 image=rockchip-armv8
-profile=radxa_e20c
+profile=radxa_rock-2a
 
-openwrt_version=25.12.0-rc1
+openwrt_version=25.12.0-rc2
 
 packages=block-mount ath10k-firmware-qca6174 kmod-ath10k wpad-mbedtls pciutils usbutils travelmate luci-app-travelmate luci uhttpd
 
