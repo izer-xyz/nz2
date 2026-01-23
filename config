@@ -4,7 +4,7 @@ profile=radxa_e20c
 
 openwrt_version=25.12.0-rc2
 
-packages=block-mount ath10k-firmware-qca6174 kmod-ath10k kmod-mt7921e wpad-mbedtls pciutils usbutils travelmate luci-app-travelmate luci uhttpd
+packages=block-mount kmod-mt7921e wpad-mbedtls pciutils usbutils luci uhttpd
 
 disabled_services=
 
