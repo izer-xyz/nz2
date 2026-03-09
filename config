@@ -1,6 +1,6 @@
 
 image=rockchip-armv8
-profile=hinlink_h28k
+profile=radxa_rock-2a
 
 openwrt_version=25.12.0
 
