@@ -4,7 +4,7 @@ profile=glinet_gl-mt3000
 
 openwrt_version=25.12.2
 
-packages=relayd portainer lua-eco
+packages=relayd podman lua-eco
 
 disabled_services=
 
