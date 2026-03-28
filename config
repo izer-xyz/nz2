@@ -1,10 +1,10 @@
 
-image=rockchip-armv8
-profile=radxa_rock-2a
+image=mediatek/filogic
+profile=glinet_gl-mt3000
 
-openwrt_version=25.12.0
+openwrt_version=25.12.2
 
-packages=block-mount kmod-mt7921e dtc wpad-mbedtls pciutils usbutils luci uhttpd
+packages=relayd portainer lua-eco
 
 disabled_services=
 
